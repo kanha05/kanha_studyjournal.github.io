@@ -1,0 +1,41 @@
+# Site settings
+title: My GitHub Pages Site
+description: A personal website to showcase my projects and portfolio.
+url: "https://<username>.github.io"  # Replace with your GitHub Pages URL
+baseurl: "" # Leave this empty unless your site is in a subdirectory
+
+# Build settings
+theme: minima # The default theme for Jekyll, you can change this to another Jekyll theme
+
+# Markdown settings
+markdown: kramdown
+highlighter: rouge
+
+# Site navigation
+permalink: pretty # Makes URLs clean and readable
+
+# Exclusions
+exclude:
+  - "README.md" # Files to exclude from the site build
+  - "Gemfile"
+  - "Gemfile.lock"
+
+# Plugins
+plugins:
+  - jekyll-feed # Automatically generates an Atom feed for your site
+  - jekyll-seo-tag # Adds SEO tags for better search engine optimization
+
+# Social media links (optional)
+social_links:
+  twitter: your_twitter_handle
+  github: your_github_username
+  linkedin: your_linkedin_username
+
+# Author details (optional)
+author:
+  name: Your Name
+  email: your.email@example.com
+
+# Other settings (optional)
+paginate: 5 # Number of posts per page for blog pagination
+paginate_path: "/page:num/" # URL path for paginated pages
