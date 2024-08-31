@@ -1,11 +1,12 @@
 # Site settings
 title: My GitHub Pages Site
 description: A personal website to showcase my projects and portfolio.
-url: "https://<username>.github.io"  # Replace with your GitHub Pages URL
+url: "https://kanha_studyjournal.github.io"  # Replace with your GitHub Pages URL
 baseurl: "" # Leave this empty unless your site is in a subdirectory
 
 # Build settings
-theme: minima # The default theme for Jekyll, you can change this to another Jekyll theme
+theme: jekyll-theme-minimal # Replace with your theme's name
+# The default theme for Jekyll, you can change this to another Jekyll theme
 
 # Markdown settings
 markdown: kramdown
