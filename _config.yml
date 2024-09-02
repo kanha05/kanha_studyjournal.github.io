@@ -40,3 +40,15 @@ author:
 # Other settings (optional)
 paginate: 5 # Number of posts per page for blog pagination
 paginate_path: "/page:num/" # URL path for paginated pages
+
+#navigation to each main page 
+navigation:
+  - title: "Home"
+    url: "/"
+  - title: "About"
+    url: "/about/"
+  - title: "Projects"
+    url: "/projects/"
+  - title: "Contact"
+    url: "/contact/"
+
